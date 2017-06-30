@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+   <!-- This website was written by: Olivia Allaire -->
+   <!-- Last updated: 28/6/2017 8:28AM -->
+   <head>
+      <link rel="stylesheet" href="./style.css"/>
+   </head>
+   <body>
+      <div id="red">
+         <h1>WOMANS MARCH 2017</h1>
+         <h2>In January 2017, 2.6 million people around the world participated in woman marches. The protest united people of all ages, sex, races, religion, ex.  It was looked at as a revolution against wrongful human and civil rights.</h2>
+         <img id="WomansMarch" src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170121211838-28-womens-march-dc-super-169.jpg"/>
+      </div>
+      <div id="orange">
+         <h1>Womans Rights</h1>
+         <h2>Womens movement refers to a series of campains for issues such as reproductive rights, domestic violence, meternity leave, equal pay, women sufferage, sexual harassment, and violence</h2>
+         <img src="http://guardianlv.com/wp-content/uploads/2014/03/Womens-Rights-Equal-Human-Rights-650x431.jpg"/>
+      </div>
+      <div id="yellow">
+         <h1>LGBT+ Rights</h1>
+         <h2>Support lesbian, gay, bisexual, transgender, ex., rights. People around the world face violence, inequality, and as far as torture and execution just because of who they love. Kids get made fun of for having gay parents. Queer people can be kicked out of church. Kids can be kicked out of their house for coming out. And even until recently being transgender meant no helth care. People apart of this movement fight for things to change in the way society treats and looks at the LGBT+ community.</h2>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/PnDgZuGIhHs" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div id="green">
+         <h1>Disability Rights</h1>
+         <h2>The Disability Rights Movement fights for rights for people with disabilities. They believe people with disabilities should have equal access to rights, oppritunities, and services, while being protected from discrimination, abuse, and neglect</h2>
+         <img  id="DisabilityRights" src="https://disabledidentity.files.wordpress.com/2015/10/3b7bb-ada25years.jpg"/>
+      </div>
+      <div id="blue">
+         <h1>Religion</h1>
+         <h2>People who suopport this movement believe no one should be discriminated or face predjudice because of their faith or religion.</h2>
+         <img id="ReligiousFreedom" src="https://i.ytimg.com/vi/etb-JfTHJ0c/maxresdefault.jpg"/>
+      </div>
+      <div id="purple">
+         <h1>Civil Rights</h1>
+         <h2>Civil Rights Movement fights for equal rights no matter your skin color. This movement works against discrimination and predjudice in society and teach to treat people equally no matter their race or ethnicity.</h2>
+         <img id="CivilRights" src="http://www.goodnet.org/photos/620x0/26026_hd.jpg"/>
+         <img id="BlackLivesMatter" src="http://stmedia.startribune.com/images/ows_144002532180502.jpg"/>
+      </div>
+      <div id="red2">
+         <canvas id="myCanvas" width="555px" height="370px" style="border:1px solid #000000;" >
+         </canvas>
+         <br />
+         <input type="color" id="color" onchange="changeColor()"/>
+      </div>
+      <div id="orange2">
+         <div id="slideshow1" class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="img1.jpg" style="width:100%">
+               <div class="text">Womans Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="img2.png" style="width:100%">
+               <div class="text">Womans Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <img src="img3.jpg" style="width:100%">
+               <div class="text">Womans Rights</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+         </div>
+         <br>
+         <div id="dots1" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 1)"></span> 
+            <span class="dot" onclick="currentSlide(2, 1)"></span> 
+            <span class="dot" onclick="currentSlide(3, 1)"></span> 
+         </div>
+      </div>
+      <div id="yellow2">
+         <div id="slideshow2" class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="img4.jpg" style="width:100%">
+               <div class="text">Pride Parade</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="img5.jpg" style="width:100%">
+               <div class="text">Pride Parade</div>
+               a
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <img src="img6.jpg" style="width:100%">
+               <div class="text">Pride Parade</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+         </div>
+         <br>
+         <div id="dots2" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 2)"></span> 
+            <span class="dot" onclick="currentSlide(2, 2)"></span> 
+            <span class="dot" onclick="currentSlide(3, 2)"></span> 
+         </div>
+      </div>
+      <div id="green2">
+         <div id="slideshow3" class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="img7.jpg" style="width:100%">
+               <div class="text">Disability Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="img8.jpg" style="width:100%">
+               <div class="text">Disability Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/qXD7TckuVjM" frameborder="0" allowfullscreen></iframe>
+               <div class="text">Disability Rights Video</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+         </div>
+         <br>
+         <div id="dots3" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 3)"></span> 
+            <span class="dot" onclick="currentSlide(2, 3)"></span> 
+            <span class="dot" onclick="currentSlide(3, 3)"></span> 
+         </div>
+      </div>
+      <div id="blue2">
+         <div id="slideshow4" class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="img9.jpg" style="width:100%">
+               <div class="text">Religious Freedom</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="img10.jpg" style="width:100%">
+               <div class="text">Religious Freedom</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/AbMrtozmA20" frameborder="0" allowfullscreen></iframe>
+               <div class="text">Religious Freedom Video</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+         </div>
+         <br>
+         <div id="dots4" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 4)"></span> 
+            <span class="dot" onclick="currentSlide(2, 4)"></span> 
+            <span class="dot" onclick="currentSlide(3, 4)"></span> 
+         </div>
+      </div>
+      <div id="purple2">
+           <div id="slideshow5" class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="img11.jpg" style="width:100%">
+               <div class="text">Civil Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="img12.jpg" style="width:100%">
+               <div class="text">Civil Rights</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <img src="img13.jpg" style="width:100%">
+               <div class="text">Civil Rights Video</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+         </div>
+         <br>
+         <div id="dots5" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 5)"></span> 
+            <span class="dot" onclick="currentSlide(2, 5)"></span> 
+            <span class="dot" onclick="currentSlide(3, 5)"></span> 
+         </div>
+      </div>
+      <script type="text/javascript" src="doodler.js"></script>
+   </body>
+</html>

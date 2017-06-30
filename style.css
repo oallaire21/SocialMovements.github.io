@@ -1,0 +1,324 @@
+ 
+html {
+   height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+ #red {
+     background-color: red;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     font-size: 25px;
+     text-decoration-color: white;
+     text-shadow: black;
+     color: white;
+}
+ 
+#orange{
+    background-color: orange;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     font-size: 25px;
+     text-decoration-color: white;
+     color: white;
+    
+}
+
+#yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+     font-size: 25px;
+     text-decoration-color: white;
+     color: white;
+    
+}
+
+#green{
+    background-color: limegreen;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration-color: white;
+    color: white;
+    
+}
+
+#blue{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration-color: white;
+    color: white;
+    
+}
+
+#purple{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration-color: white;
+    color: white;
+    
+}
+
+#WomansMarch{
+    width:750px;
+}
+
+#DisabilityRights{
+    width: 750px;
+}
+
+#ReligiousFreedom{
+    width: 750px;
+}
+
+#CivilRights{
+    object-position: left;
+    width: 500px;
+    height: 750x;
+}
+
+#BlackLivesMatter{
+    width: 500px;
+    object-position: right;
+}
+
+#red2{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#orange2{
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+}
+
+#yellow2{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+#green2{
+    background-color: limegreen;
+    width: 100%;
+    height: 100%;
+}
+
+#blue2{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+#purple2{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
+
+#myCanvas{
+  text-align: center;  
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
